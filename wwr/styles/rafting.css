@@ -3,8 +3,8 @@
     --secondary-color: #4B9C82;
     --accent-color: #443627;
     --text-color: black;
-    --heading-font: 'Libre Baskerville';
-    --text-font: 'Ubuntu';
+    --heading-font: "Libre Baskerville", serif;
+    --text-font: "Ubuntu", sans-serif;
     --padding: 1rem;
 }
 
@@ -12,6 +12,8 @@ h1 {
     background-color:rgb(25 114 120 / 70%);
     color: var(--text-color);
     font-family: var(--heading-font);
+    font-weight: 700;
+    font-style: normal;
     padding: 3rem;
     position: absolute;
     width: 68%;
@@ -22,12 +24,16 @@ h2 {
     background-color: var(--secondary-color);
     color: var(--text-color);
     font-family: var(--heading-font);
+    font-weight: 700;
+    font-style: normal;
     padding: var(--padding);
 }
 
 p {
     color: var(--text-color);
     font-family: var(--text-font);
+    font-weight: 400;
+    font-style: normal;
 }
 
 footer nav a {
@@ -59,15 +65,18 @@ header {
     padding: 7rem;
     position: absolute;
     top: 525px;
-    margin-left: 150px;
-    width: 42%;
+    margin-left: 104px;
+    width: 21%;
     text-align: left;
+    word-wrap: break-word;
 }
 
 .hero article img {
+    background-color:rgb(25 114 120 / 70%);
+    padding: 1.9rem;
     position: absolute;
-    top: 560px;
-    right: 320px;
+    top: 540px;
+    right: 307px;
     float: right;
     display: block;
     width: 20%;
@@ -84,8 +93,4 @@ main {
 
 #image1 {
     position: relative;
-}
-
-#image2 {
-    
 }
