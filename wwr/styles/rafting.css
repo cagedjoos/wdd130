@@ -1,0 +1,91 @@
+:root {
+    --primary-color: #197278;
+    --secondary-color: #4B9C82;
+    --accent-color: #443627;
+    --text-color: black;
+    --heading-font: 'Libre Baskerville';
+    --text-font: 'Ubuntu';
+    --padding: 1rem;
+}
+
+h1 {
+    background-color:rgb(25 114 120 / 70%);
+    color: var(--text-color);
+    font-family: var(--heading-font);
+    padding: 3rem;
+    position: absolute;
+    width: 68%;
+    text-align: center;
+}
+
+h2 {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    font-family: var(--heading-font);
+    padding: var(--padding);
+}
+
+p {
+    color: var(--text-color);
+    font-family: var(--text-font);
+}
+
+footer nav a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: var(--primary-color);
+    max-width: 86%;
+}
+
+body {
+    background-color: white;
+    margin-left: 200px;
+}
+
+header {
+    background-color: white;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article p {
+    background-color:rgb(25 114 120 / 70%);
+    padding: 7rem;
+    position: absolute;
+    top: 525px;
+    margin-left: 150px;
+    width: 42%;
+    text-align: left;
+}
+
+.hero article img {
+    position: absolute;
+    top: 560px;
+    right: 320px;
+    float: right;
+    display: block;
+    width: 20%;
+    height: auto;
+}
+
+main {
+    max-width: 86%;
+}
+
+.hero div {
+    position: relative;
+}
+
+#image1 {
+    position: relative;
+}
+
+#image2 {
+    
+}
