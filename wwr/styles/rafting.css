@@ -188,8 +188,8 @@ header nav a {
 
 #section2 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto 50px;
+    grid-template-columns: 225px 225px 226px 226px 226px;
+    grid-template-rows: auto auto;
     flex-direction: row;
 }
 
@@ -199,22 +199,26 @@ header nav a {
 
 #image1 {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    align-items: start;
     grid-column: 1/1;
-    width: 200px;
+    object-fit: contain;
 }
 
 #rapids{
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: start;
+    grid-column: 1/1;
     grid-row: 3/3;
 }
 
 #image2 {
     display: flex;
     grid-column: 2/2;
-    width: 200px;
+    justify-content: center;
+    align-items: start;
+    object-fit: contain;
 }
 
 #bigrapids {
@@ -228,7 +232,9 @@ header nav a {
     display: flex;
     grid-column: 3/3;
     grid-row: 2/2;
-    width: 200px;
+    justify-content: center;
+    align-items: start;
+    object-fit: contain;
 }
 
 #waterfall {
@@ -241,7 +247,9 @@ header nav a {
 #image4 {
     display: flex;
     grid-column: 4/4;
-    width: 200px;
+    justify-content: center;
+    align-items: start;
+    object-fit: contain;
 }
 
 #ram{
@@ -254,7 +262,9 @@ header nav a {
 #image5 {
     display: flex;
     grid-column: 5/5;
-    width: 200px;
+    justify-content: center;
+    align-items: start;
+    object-fit: contain;
 }
 
 #lizard {
@@ -286,6 +296,21 @@ header nav a {
     display: flex;
     justify-content: center;
     grid-column: 3/3;
+}
+
+figcaption {
+    display: flex;
+    grid-row: 3/3;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+figure {
+    position: relative;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 40px;
 }
 
 
