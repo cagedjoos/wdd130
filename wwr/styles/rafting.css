@@ -30,7 +30,7 @@ h2 {
     padding: var(--padding);
 }
 
-h3 {
+#send {
     background-color:white;
     color: var(--text-color);
     font-family: var(--heading-font);
