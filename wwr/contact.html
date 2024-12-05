@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <meta name="description" content="This is my page that has contact information for the whitewater rafting business.">
+    <meta name="author" content="Cage Joos">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <img src="images/whitewaterlogo.png" alt="logo" width="200">
+        <nav>
+            <a href="index.html" id="home">Home</a>
+            <a href="about.html" id="about">About Us</a>
+            <a href="trips.html" id="trips">Trips</a>
+            <a href="contact.html" id="contact">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-page">
+            <h4>Contact Us</h4>
+            <h3>Send Us a Message</h3>
+            <p id="business-name">White Water Rafting</p>
+            <p id="phone">Phone: (999) 999-9999</p>
+            <p id="email">Email: <a href="mailto:">youremail@gmail.com</a></p>
+            <p id="address">Address: 840 Clinton Street, Litte Rock, Arkansas, 72205</p>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7545.350965497942!2d-110.79373536499381!3d43.54627958213668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1733333731905!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is the purpose of this message?</label>
+                <div class="form-item column1">
+                    <label for="Inquiry">General Inquiry</label>
+                    <input type="radio" id="inquiry" name="inquiry">
+                    <label for="question">Reservation Question</label>
+                    <input type="radio" id="question" name="question">
+                    <label for="suggestion">Website Suggestion</label>
+                    <input type="radio" id="suggestion" name="suggestion">
+                </div>
+                <label for="feedback">Message:</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Write Message Here:"></textarea>
+                <div class="form-item column1">
+                    <label for="monthly">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="monthly" name="monthly">
+                </div>
+            </fieldset>
+            <button type="submit">Submit Message</button>
+        </form>
+        <h6>Employees</h6>
+        <section id="section3">
+            <figure id="happy1">
+                <img src="images/happy-employee-1.jpg" width="200" alt="happy1">
+                <figcaption id="jennifer">Jennifer, River Guide</figcaption>
+            </figure>
+            <figure id="happy2">
+                <img src="images/happy-employee-2.jpg" width="200" alt="happy2">
+                <figcaption id="lebron">Lebron, River Guide</figcaption>
+            </figure>
+            <figure id="happy3">
+                <img src="images/happy-employee-3.jpg" width="200" alt="happy3">
+                <figcaption id="lisa">Lisa, River Guide</figcaption>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <p>©, 2024, Whitewater Rapids, Cage Joos</p>
+        <nav class="wireframe">
+            <a href="https://app.moqups.com/iJAikbpHPRN0ErtAw2O6r71yX9TAQ42j/view/page/ad12de680">Wireframe</a>
+        </nav>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebooklogo.webp" alt="Facebook" id="facebook">
+            </a>
+            <a href="https://x.com">
+                <img src="images/xlogo.webp" alt="X" id="x">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagramlogo.webp" alt="Instagram" id="instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>

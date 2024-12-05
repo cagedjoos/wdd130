@@ -30,6 +30,76 @@ h2 {
     padding: var(--padding);
 }
 
+h3 {
+    background-color:white;
+    color: var(--text-color);
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 3rem;
+    position: relative;
+    width: 91.7%;
+    margin: 0;
+    text-align: center;
+}
+
+h4 {
+    background-color:var(--secondary-color);
+    color: var(--text-color);
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    padding: 3rem;
+    position: relative;
+    width: 91.7%;
+    margin: 0;
+    text-align: center;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+#business-name {
+    text-align: center;
+    color: var(--text-color);
+    font-family: var(--text-font);
+    font-weight: 400;
+    font-style: normal;
+}
+
+#phone {
+    text-align: center;
+    color: var(--text-color);
+    font-family: var(--text-font);
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+#email {
+    text-align: center;
+    color: var(--text-color);
+    font-family: var(--text-font);
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 0.5rem;
+}
+
+#address {
+    text-align: center;
+    color: var(--text-color);
+    font-family: var(--text-font);
+    font-weight: 400;
+    font-style: normal;
+}
+
 p {
     color: var(--text-color);
     font-family: var(--text-font);
@@ -313,5 +383,99 @@ figure {
     padding: 40px;
 }
 
+
+form {
+    width: 500px;
+    margin-left: 300px;
+    padding: 1rem;
+    border: 1px solid rgb(0, 0, 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0 / 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+label {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.wireframe {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#section3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+h6 {
+    text-align: center;
+    font-family: var(--heading-font);
+    color: var(--text-color);
+    font-size: 30px;
+    background-color: #4B9C82;
+    padding: 3rem;
+    margin: 0;
+}
 
 
