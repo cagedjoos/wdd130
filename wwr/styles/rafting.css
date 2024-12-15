@@ -478,4 +478,153 @@ h6 {
     margin: 0;
 }
 
+#home-hero {
+    width: 100%;
+}
 
+#section4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 20px;
+}
+
+#trips2 {
+    margin-top: 25px;
+    margin-left: 450px;
+    margin-right: 350px;
+    margin-bottom: 25px;
+    justify-content: center;
+    background-color: #197278;
+    text-decoration: none;
+    color: #000;
+    border-radius: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+#newsletter {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#section6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#section11 {
+    display: inline;
+}
+
+#animal {
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 0;
+    text-align: left;
+}
+
+#rapid-routes {
+    display: inline-block;
+    margin-left: 50px;
+    text-align: center;
+}
+
+#peace-routes {
+    display: inline-block;
+    margin-left: 75px;
+    text-align: right;
+}
+
+#section6 figcaption {
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+
+#contact2 {
+    margin-top: 25px;
+    margin-left: 350px;
+    margin-right: 350px;
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    text-decoration: none;
+    color: #000;
+    background-color: #197278;
+    border-radius: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 20px;
+    justify-content: center;
+}
+
+#trip3 {
+    border-collapse: collapse;
+    border: 1px solid;
+    margin: 0;
+}
+
+#trip4 {
+    border-collapse: collapse;
+    border: 1px solid;
+    margin: 0;
+}
+
+#trip5 {
+    border-collapse: collapse;
+    border: 1px solid;
+    margin: 0;
+}
+
+#trip6 {
+    border-collapse: collapse;
+    border: 1px solid;
+    margin: 0;
+}
+
+#trip7 {
+    border-collapse: collapse;
+    border: 1px solid;
+    margin: 0;
+}
+
+#section9 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-collapse: collapse;
+    border: 1px solid;
+    margin: 50px;
+}
+
+#night1 {
+    border-collapse: collapse;
+    border: 1px solid;
+    margin: 0;
+}
+
+#night2 {
+    border-collapse: collapse;
+    border: 1px solid;
+    margin: 0;
+}
+
+#night3 {
+    border-collapse: collapse;
+    border: 1px solid;
+    margin: 0;
+}
+
+#night4 {
+    border-collapse: collapse;
+    border: 1px solid;
+    margin: 0;
+}
+
+#night5 {
+    border-collapse: collapse;
+    border: 1px solid;
+    margin: 0;
+}
